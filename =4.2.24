@@ -1,0 +1,145 @@
+Collecting PyFunceble-dev
+  Downloading PyFunceble_dev-4.2.24-py3-none-any.whl.metadata (15 kB)
+Collecting cryptography~=42.0 (from PyFunceble-dev)
+  Downloading cryptography-42.0.8-cp39-abi3-manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+Collecting dnspython~=2.6.0 (from dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading dnspython-2.6.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting PyMySQL (from PyFunceble-dev)
+  Downloading PyMySQL-1.1.1-py3-none-any.whl.metadata (4.4 kB)
+Collecting SQLAlchemy~=2.0 (from PyFunceble-dev)
+  Downloading SQLAlchemy-2.0.31-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.6 kB)
+Collecting python-dotenv (from PyFunceble-dev)
+  Downloading python_dotenv-1.0.1-py3-none-any.whl.metadata (23 kB)
+Collecting colorama (from PyFunceble-dev)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting shtab (from PyFunceble-dev)
+  Downloading shtab-1.7.1-py3-none-any.whl.metadata (7.3 kB)
+Collecting inflection (from PyFunceble-dev)
+  Downloading inflection-0.5.1-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting PyYAML (from PyFunceble-dev)
+  Downloading PyYAML-6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+Collecting requests<3 (from requests[socks]<3->PyFunceble-dev)
+  Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting packaging (from PyFunceble-dev)
+  Downloading packaging-24.1-py3-none-any.whl.metadata (3.2 kB)
+Collecting domain2idna~=1.12.0 (from PyFunceble-dev)
+  Downloading domain2idna-1.12.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting python-box~=6.0.0 (from python-box[all]~=6.0.0->PyFunceble-dev)
+  Downloading python_box-6.0.2-py3-none-any.whl.metadata (7.7 kB)
+Collecting alembic (from PyFunceble-dev)
+  Downloading alembic-1.13.1-py3-none-any.whl.metadata (7.4 kB)
+Collecting setuptools>=65.5.1 (from PyFunceble-dev)
+  Downloading setuptools-70.1.0-py3-none-any.whl.metadata (6.0 kB)
+Collecting cffi>=1.12 (from cryptography~=42.0->PyFunceble-dev)
+  Downloading cffi-1.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting h2>=4.1.0 (from dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading h2-4.1.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting httpcore>=1.0.0 (from dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading httpcore-1.0.5-py3-none-any.whl.metadata (20 kB)
+Collecting httpx>=0.26.0 (from dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading httpx-0.27.0-py3-none-any.whl.metadata (7.2 kB)
+Collecting ruamel.yaml>=0.17 (from python-box[all]~=6.0.0->PyFunceble-dev)
+  Downloading ruamel.yaml-0.18.6-py3-none-any.whl.metadata (23 kB)
+Collecting toml (from python-box[all]~=6.0.0->PyFunceble-dev)
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting msgpack (from python-box[all]~=6.0.0->PyFunceble-dev)
+  Downloading msgpack-1.0.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.1 kB)
+Collecting charset-normalizer<4,>=2 (from requests<3->requests[socks]<3->PyFunceble-dev)
+  Downloading charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (33 kB)
+Collecting idna<4,>=2.5 (from requests<3->requests[socks]<3->PyFunceble-dev)
+  Downloading idna-3.7-py3-none-any.whl.metadata (9.9 kB)
+Collecting urllib3<3,>=1.21.1 (from requests<3->requests[socks]<3->PyFunceble-dev)
+  Downloading urllib3-2.2.2-py3-none-any.whl.metadata (6.4 kB)
+Collecting certifi>=2017.4.17 (from requests<3->requests[socks]<3->PyFunceble-dev)
+  Downloading certifi-2024.6.2-py3-none-any.whl.metadata (2.2 kB)
+Collecting PySocks!=1.5.7,>=1.5.6 (from requests[socks]<3->PyFunceble-dev)
+  Downloading PySocks-1.7.1-py3-none-any.whl.metadata (13 kB)
+Collecting typing-extensions>=4.6.0 (from SQLAlchemy~=2.0->PyFunceble-dev)
+  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting greenlet!=0.4.17 (from SQLAlchemy~=2.0->PyFunceble-dev)
+  Downloading greenlet-3.0.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+Collecting Mako (from alembic->PyFunceble-dev)
+  Downloading Mako-1.3.5-py3-none-any.whl.metadata (2.9 kB)
+Collecting pycparser (from cffi>=1.12->cryptography~=42.0->PyFunceble-dev)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting hyperframe<7,>=6.0 (from h2>=4.1.0->dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading hyperframe-6.0.1-py3-none-any.whl.metadata (2.7 kB)
+Collecting hpack<5,>=4.0 (from h2>=4.1.0->dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading hpack-4.0.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting h11<0.15,>=0.13 (from httpcore>=1.0.0->dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting anyio (from httpx>=0.26.0->dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading anyio-4.4.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting sniffio (from httpx>=0.26.0->dnspython[doh]~=2.6.0->PyFunceble-dev)
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting ruamel.yaml.clib>=0.2.7 (from ruamel.yaml>=0.17->python-box[all]~=6.0.0->PyFunceble-dev)
+  Downloading ruamel.yaml.clib-0.2.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.metadata (2.2 kB)
+Collecting MarkupSafe>=0.9.2 (from Mako->alembic->PyFunceble-dev)
+  Downloading MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
+Downloading PyFunceble_dev-4.2.24-py3-none-any.whl (512 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 512.7/512.7 kB 13.9 MB/s eta 0:00:00
+Downloading cryptography-42.0.8-cp39-abi3-manylinux_2_28_x86_64.whl (3.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 120.2 MB/s eta 0:00:00
+Downloading dnspython-2.6.1-py3-none-any.whl (307 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.7/307.7 kB 264.8 MB/s eta 0:00:00
+Downloading domain2idna-1.12.0-py3-none-any.whl (10 kB)
+Downloading python_box-6.0.2-py3-none-any.whl (26 kB)
+Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 228.9 MB/s eta 0:00:00
+Downloading setuptools-70.1.0-py3-none-any.whl (882 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 882.6/882.6 kB 261.3 MB/s eta 0:00:00
+Downloading SQLAlchemy-2.0.31-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 251.6 MB/s eta 0:00:00
+Downloading alembic-1.13.1-py3-none-any.whl (233 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 233.4/233.4 kB 262.9 MB/s eta 0:00:00
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading inflection-0.5.1-py2.py3-none-any.whl (9.5 kB)
+Downloading packaging-24.1-py3-none-any.whl (53 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.0/54.0 kB 181.3 MB/s eta 0:00:00
+Downloading PyMySQL-1.1.1-py3-none-any.whl (44 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.0/45.0 kB 204.2 MB/s eta 0:00:00
+Downloading python_dotenv-1.0.1-py3-none-any.whl (19 kB)
+Downloading PyYAML-6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (724 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 725.0/725.0 kB 259.0 MB/s eta 0:00:00
+Downloading shtab-1.7.1-py3-none-any.whl (14 kB)
+Downloading certifi-2024.6.2-py3-none-any.whl (164 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 164.4/164.4 kB 236.4 MB/s eta 0:00:00
+Downloading cffi-1.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (477 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 477.6/477.6 kB 264.9 MB/s eta 0:00:00
+Downloading charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 141.9/141.9 kB 249.8 MB/s eta 0:00:00
+Downloading greenlet-3.0.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (625 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 625.7/625.7 kB 247.3 MB/s eta 0:00:00
+Downloading h2-4.1.0-py3-none-any.whl (57 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 kB 217.8 MB/s eta 0:00:00
+Downloading httpcore-1.0.5-py3-none-any.whl (77 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.9/77.9 kB 237.0 MB/s eta 0:00:00
+Downloading httpx-0.27.0-py3-none-any.whl (75 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.6/75.6 kB 234.2 MB/s eta 0:00:00
+Downloading idna-3.7-py3-none-any.whl (66 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.8/66.8 kB 227.1 MB/s eta 0:00:00
+Downloading PySocks-1.7.1-py3-none-any.whl (16 kB)
+Downloading ruamel.yaml-0.18.6-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.8/117.8 kB 212.1 MB/s eta 0:00:00
+Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading urllib3-2.2.2-py3-none-any.whl (121 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.4/121.4 kB 245.7 MB/s eta 0:00:00
+Downloading Mako-1.3.5-py3-none-any.whl (78 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.6/78.6 kB 222.9 MB/s eta 0:00:00
+Downloading msgpack-1.0.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (408 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 408.3/408.3 kB 262.2 MB/s eta 0:00:00
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 205.8 MB/s eta 0:00:00
+Downloading hpack-4.0.0-py3-none-any.whl (32 kB)
+Downloading hyperframe-6.0.1-py3-none-any.whl (12 kB)
+Downloading MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (28 kB)
+Downloading ruamel.yaml.clib-0.2.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl (734 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 734.6/734.6 kB 260.9 MB/s eta 0:00:00
+Downloading anyio-4.4.0-py3-none-any.whl (86 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 kB 223.0 MB/s eta 0:00:00
+Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 243.6 MB/s eta 0:00:00
+Installing collected packages: urllib3, typing-extensions, toml, sniffio, shtab, setuptools, ruamel.yaml.clib, PyYAML, python-dotenv, python-box, PySocks, PyMySQL, pycparser, packaging, msgpack, MarkupSafe, inflection, idna, hyperframe, hpack, h11, greenlet, dnspython, colorama, charset-normalizer, certifi, SQLAlchemy, ruamel.yaml, requests, Mako, httpcore, h2, domain2idna, cffi, anyio, httpx, cryptography, alembic, PyFunceble-dev
+Successfully installed Mako-1.3.5 MarkupSafe-2.1.5 PyFunceble-dev-4.2.24 PyMySQL-1.1.1 PySocks-1.7.1 PyYAML-6.0.1 SQLAlchemy-2.0.31 alembic-1.13.1 anyio-4.4.0 certifi-2024.6.2 cffi-1.16.0 charset-normalizer-3.3.2 colorama-0.4.6 cryptography-42.0.8 dnspython-2.6.1 domain2idna-1.12.0 greenlet-3.0.3 h11-0.14.0 h2-4.1.0 hpack-4.0.0 httpcore-1.0.5 httpx-0.27.0 hyperframe-6.0.1 idna-3.7 inflection-0.5.1 msgpack-1.0.8 packaging-24.1 pycparser-2.22 python-box-6.0.2 python-dotenv-1.0.1 requests-2.32.3 ruamel.yaml-0.18.6 ruamel.yaml.clib-0.2.8 setuptools-70.1.0 shtab-1.7.1 sniffio-1.3.1 toml-0.10.2 typing-extensions-4.12.2 urllib3-2.2.2
